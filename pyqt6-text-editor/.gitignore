@@ -2,3 +2,4 @@
 /.vscode
 /back-up
 build
+**/__pycache__
