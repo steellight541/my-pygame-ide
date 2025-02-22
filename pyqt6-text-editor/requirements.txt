@@ -1,0 +1,2 @@
+# newest PyQt6 version find at https://pypi.org/project/PyQt6/
+PyQt6>=6.8.1
