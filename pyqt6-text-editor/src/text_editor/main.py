@@ -98,9 +98,7 @@ class TextEditor(QWidget):
         if returncode == 0:
             self.build_output.append_text("Build complete you can close down this window")
             self.parent.side_bar.refresh()
-        else:
-            self.build_output.append_text("Build failed")
-
+        else: self.build_output.append_text("Build failed")
         self.build_process.close()
 
 
